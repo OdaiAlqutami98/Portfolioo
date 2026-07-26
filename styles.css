@@ -440,7 +440,17 @@ html {
 }
 
 .demo-link {
-  font-size: 14px;
-  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 8px;
+  background: rgba(236, 238, 240, 0.15);
+  color: #a4a3dd;
   font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.demo-link:hover {
+  background: rgba(241, 238, 233, 0.25);
 }
